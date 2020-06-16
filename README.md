@@ -6,7 +6,9 @@
  import lumber
 
  @lumber.jack
+ 
  def function():
+ 
     ...
 
 # side effects
