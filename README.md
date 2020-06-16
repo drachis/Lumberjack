@@ -2,14 +2,10 @@
  Minimal logging of function use as a decorator.
 
 # Useage
-
- import lumber
-
- @lumber.jack
- 
- def function():
- 
-    ...
+    import lumber
+    @lumber.jack
+    def _function():
+        pass
 
 # side effects
 User, machine, time, function name and funciton file name are logged into an sqlite database. 
