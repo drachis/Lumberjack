@@ -3,6 +3,7 @@
 
 # Useage
     import lumber
+    
     @lumber.jack
     def _function():
         pass
